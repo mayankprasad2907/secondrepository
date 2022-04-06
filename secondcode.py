@@ -5,8 +5,9 @@ a = "rohan"
 b = "mohali"
 
 # store the difference of sets
-result = list(a)-list(b)
+result = set(a)-set(b)
 
 # print result
 print(result)
 print('ENd')
+print('New line')
